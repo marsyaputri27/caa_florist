@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image" href="aset/Black and Brown Illustrative Florist Logo (2).png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caa Florist</title>
+    <link rel="stylesheet" href="style bouquet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allura&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Funnel+Display:wght@300..800&family=Great+Vibes&family=Indie+Flower&family=Lobster&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Balinese:wght@400..700&family=Playwrite+AU+VIC+Guides&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+
+
+
+</head>
+<body>
+    <nav>
+        <img src="aset/Black_and_Brown_Illustrative_Florist_Logo__1_-removebg-preview.png" alt="Logo" class="logo">
+        <!-- Checkbox sebagai toggle menu -->
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <!-- Label untuk ikon hamburger -->
+        <label for="menu-toggle" id="hamburger">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+        <ul id="menu">
+          <li><a href="home.html" class="menu-item ">Home</a></li>
+          <li class="dropdown">
+            <a href="#" class="menu-item klik">Bouquest &#9662;</a>
+            <ul class="dropdown-menu" id="dropdown-menu">
+                <li><i class="fa-solid fa-times" id="cancel" onclick="closeDropdown()"></i></li>
+                <li><a href="Money Bouquet.html">Money Bouquet</a></li>
+                <li><a href="acrylic bouquet.html" class="klik">Acrylic Bouquet</a></li>
+                <li><a href="butterfly bouquet.html">Butterfly Bouquet</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+
+   
+    <div class="menu">
+        <div class="sub-menu">
+            <div class="bouquet">
+                <img src="aset/4__2_-removebg-preview.png"acrylic">
+            </div>
+            <div class="details">
+                <h3>Medium Acrylic Of Bouquet</h3>
+                <p>Start from Rp. 45.000</p>
+                <button onclick="open_wa()">Hubungi Kami</button>
+            </div>
+        </div>
+
+        
+        <div class="sub-menu">
+            <div class="bouquet threed">
+                <img src="aset/6-removebg-preview.png" alt="acrylic">
+            </div>
+            <div class="details">
+                <h3>Medium Acrylic Of Bouquet</h3>
+                <p>Start from Rp. 40.000</p>
+                <button onclick="open_wa()">Hubungi Kami</button>
+            </div>
+        </div>
+
+        <div class="sub-menu">
+            <div class="bouquet">
+                <img src="aset/5-removebg-preview.png" alt="acrilyc">
+            </div>
+            <div class="details">
+                <h3>Medium Acrylic Of Bouquet</h3>
+                <p>Start from Rp. 50.000</p>
+                <button onclick="open_wa()">Hubungi Kami</button>
+            </div>
+        </div>
+
+        <div class="sub-menu">
+            <div class="bouquet">
+                <img src="aset/7-removebg-preview.png" alt="acrilyc">
+            </div>
+            <div class="details">
+                <h3>White Of Bouquet</h3>
+                <p>Start from Rp. 50.000</p>
+                <button onclick="open_wa()">Hubungi Kami</button>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Caa Florist</h4>
+                <p>Tentang Caa Florist</p>
+            </div>
+
+            <div class="footer-section">
+                <h4>Bantuan</h4>
+                <p>Kontak Kami</p>
+            </div>
+
+            <div class="footer-section">
+                <h4>Layanan Customers</h4>
+                <p><i class="fas fa-phone-alt"></i> 081547568424</p>
+                <p onclick="open_ig()"><i class="fab fa-instagram"></i> @caaa_floristt</p>
+                <p><i class="fas fa-location"></i> Jalan Raya Dawas, Canggu</p>
+            </div>
+
+            <div class="footer-logo">
+                <img src="aset/Black_and_Brown_Illustrative_Florist_Logo__1_-removebg-preview baru.png" alt="">
+                <p>copyright &copy; 2024 Caa Florist</p>
+            </div>
+
+          
+
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
